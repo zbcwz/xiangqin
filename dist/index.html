@@ -1,0 +1,90 @@
+<!DOCTYPE html >
+<html >
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+	
+   	<!--<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+   <title>爱在日照</title>
+
+    <style type="text/css">
+    	*{
+	     	-webkit-box-sizing: border-box;
+    		box-sizing: border-box;
+		    /*-webkit-user-select: none;*/
+		    outline: none;
+		    -webkit-tap-highlight-color: transparent;
+		    -webkit-tap-highlight-color: transparent;
+			}
+			/*设置IOS页面长按不可复制粘贴，但是IOS上出现input、textarea不能输入，因此将使用-webkit-user-select:auto;*/
+			*{
+			  -webkit-touch-callout:none; /*系统默认菜单被禁用*/
+			  -webkit-user-select:none; /*webkit浏览器*/
+			  -khtml-user-select:none; /*早期浏览器*/
+			  -moz-user-select:none;/*火狐*/
+			  -ms-user-select:none; /*IE10*/
+			  user-select:none;
+			}
+			input,textarea {
+			  -webkit-user-select:auto; /*webkit浏览器*/
+			}
+			.in-out-translate-fade-enter-active, .in-out-translate-fade-leave-active {
+			  transition: all .2s;
+			  position: absolute;
+			  /*top:0px*/
+			  width: 100%;
+			  height: 100%;
+			}
+			.in-out-translate-fade-enter, .in-out-translate-fade-leave-active {
+			  opacity: 0;
+
+			}
+			.in-out-translate-fade-enter {
+			  transform: translateX(200px);
+			}
+			.in-out-translate-fade-leave-active {
+			  transform: translateX(-200px);
+			}
+			body {
+				/* font: 14px "微软雅黑"; */
+				/* background: #fff; */
+				margin: 0px;
+			}
+			a {
+				text-decoration: none;
+			}
+	/* 		html,body{
+				height: 100%;
+			} */
+    </style>
+    <script type="text/javascript">
+//document.addEventListener('plusready', function() {
+//	plus.webview.currentWebview().appendJsFile('fix.js');
+//	var _;
+//	Object.defineProperty(window.location, "__page__load__over__", {
+//		set: function(t) {
+//			if (t === !0) {
+//				var i = window,
+//					e = i.plus.bridge.callbacks;
+//				if (i.__t__) {
+//					var n;
+//					for (n in i.__t__) e[n] = i.__t__[n]
+//				}
+//				i.__t__ = e
+//			}
+//			_ = t
+//		},
+//		get: function() {
+//			return _
+//		}
+//	})
+//})
+</script>
+  <link href="public/css/chunk-vendors.f68a822d.css" rel="stylesheet"><link href="public/css/app.3cb4518b.css" rel="stylesheet"></head>
+  <body>
+    <div id="app"></div>
+	<script src="https://qlgh.sdgh.org.cn/qlgh/static/js/qlgh_client_sdk.js"></script>
+  <script type="text/javascript" src="public/js/chunk-vendors.71658032.js"></script><script type="text/javascript" src="public/js/app.3ad92622.js"></script></body>
+</html>
